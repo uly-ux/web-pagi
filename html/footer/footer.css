@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: burlywood;
+    position: absolute;
+    top: 600px;
+    height: 60%;
+    width: 100%;
+    /* padding: 10px; */
+}
+
+.tombol{
+    color: rgb(163, 143, 143);
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    display: block;
+    bottom: 38px;
+}
+
+img{
+    /* background-color: brown; */
+    width: 37px;
+    margin: 10px;
+    z-index: 10px;
+    position: relative;
+}
+.medsos a img{
+    background-color: orange;
+    width: 50px;
+    margin: 10px;
+    z-index: 10px;
+    position: relative;  
+}
+
+.map{
+    position: absolute;
+    right: 12px;
+} 

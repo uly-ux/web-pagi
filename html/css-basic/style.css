@@ -1,0 +1,39 @@
+body{
+    background: rgb(110, 54, 163);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(255, 105, 180);
+}
+h1{
+    margin: 10px 0 20px 0;
+    text-align: center;
+    color: rgb(97, 3, 50);
+}
+    table{width: 100%; /*border-collapse: collapse; */border: solid 1px gray;
+}
+thead{
+    background:rgb(255, 105, 180)
+}
+th,td{
+    color: whitesmoke;
+    padding: 10px;
+}
+td{
+    color: black;
+    text-align: center;  
+}
+tbody{
+    background: rgb(116, 94, 116) ;
+}
+tbody tr:nth-child(even){
+    background: rgb(145, 85, 117);
+}
+
+
+}

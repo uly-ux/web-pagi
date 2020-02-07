@@ -1,0 +1,66 @@
+/* css untuk kotak 1 */
+.kotak1{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(#debcf1, #d344bb);
+    padding: 10px;
+    margin: 100px;
+}
+
+.kotak1:hover{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(#d4c5db, #540980);
+    padding: 10px;
+    margin: 100px;
+    border-radius: 100px;  
+}
+/* close */
+
+/* css untuk kotak 2 */
+.kotak2{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(#e4cec4, #ea5455);
+    padding: 10px;
+    margin: 100px;
+    position: relative;
+
+}
+
+.kotak2:hover{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(#fff6b7, #f6416c);
+    padding: 10px;
+    margin: 100px;
+    border-radius: 100px;
+}
+/* close */  
+
+/* css untuk kotak 3 */
+.kotak3{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(#c7f0ec, #2a9e92);
+    padding: 10px;
+    margin: 100px;
+    position: relative;
+}
+
+
+.kotak3:hover{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(#d9ebe1, #187a45);
+    padding: 10px;
+    margin: 100px;
+    border-radius: 100px;
+}
+/* close */
+ 
+.center {
+    position: relative;
+    left: 600px;
+    /* border: solid; */
+}

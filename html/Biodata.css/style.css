@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* style untuk background body */
+body{
+    background-image: url;
+    background-size: cover;
+
+    /* background-image: linear-gradient() ; */
+}
+
+table{
+    padding: 100px;
+}
+label{
+    color: rgb(81, 41, 109) ;
+}h2{
+    font-family: sans-serif;
+    font-weight: normal;
+    background-image: 45deg, #4B0082, #BA55d3;
+}
+.uly{
+    color: darkorchid;
+}
+
+/* style css untuk navbar */
+
+.navbar{
+    background-color: ;
+}
+
+
