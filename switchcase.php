@@ -27,9 +27,9 @@
  $nim="1288906";
  $jurusan="Web Programming";
  $harian = 75 * 10 / 100;
- $Quis = 80 * 15 /100;
- $UAS = 80 * 40 /100;
- $UTS = 95 * 35 /100;
+ $Quis = 80 * 15 / 100;
+ $UAS = 80 * 40 / 100;
+ $UTS = 95 * 35 / 100;
  $nilai= $harian + $Quis + $UAS + $UTS;
 
    if($nilai<=50){
