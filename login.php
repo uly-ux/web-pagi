@@ -33,3 +33,13 @@ if (!isset($user)) {
     echo "variabel ada";
 }
 ?>
+
+<?php
+    $user = "uly";
+    $pass = "123";
+    if ($user == "uly" && $pass == "123") {
+        echo "Login Berhasil";
+    }else {
+        echo "Login Gagal";
+    }
+?>
