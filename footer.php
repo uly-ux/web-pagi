@@ -129,7 +129,7 @@
 <!-- Closed Footer -->
 
 <!-- JS for bundle -->
-<script src="asset/js/jquery.js"></script>
+  <script src="asset/js/jquery.js"></script>
   <script src="asset/js/bootstrap.bundle.js"></script>
   <script src="asset/js/bootstrap.bundle.js.map"></script>
   <script src="asset/js/bootstrap.bundle.min.js"></script>
