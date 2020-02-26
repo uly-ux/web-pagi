@@ -23,6 +23,8 @@ if(isset($_POST['login'])) {
 
             echo "<script> alert(window.location.href='../bootstrap_biodata.php');
             </script>";
+        }else{
+            echo "<br>Gagal login";
         }
     }
 }
@@ -36,3 +38,15 @@ if(isset($_POST['login'])) {
     //     
   
 ?>
+<?php
+    if(isset($_POST['login'])){
+        $username=$_POST['username'];
+        $password=$_POST['password'];
+
+        if($username=='uly' && $password=='123'){
+            echo "<script> alert(window.location.href='bootstrap_biodata.php');
+            </script>";
+        }
+    }
+ 
+ ?> .

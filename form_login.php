@@ -30,36 +30,46 @@
               Sign Up
               <span class="underline"></span>
             </button>
-            <form class="form form-signup">
+            <form class="form form-signup" action="koneksi/proses_registrasi.php" method="POST">
               <fieldset>
                 <legend>Please, enter your email, password and password confirmation for sign up.</legend>
                 <div class="input-block">
-                  <label for="signup-email">E-mail</label>
-                  <input id="signup-email" type="email" name="email"required>
+
+                <div class="input-block">
+                  <label for="signup-nama_lengkap">Nama Lengkap</label>
+                  <input id="signup-nama_lengkap" type="text" name="nama_lengkap" required>
                 </div>
+
                 <div class="input-block">
                   <label for="signup-username">Username</label>
                   <input id="signup-username" type="text" name="username" required>
                 </div>
-                <!-- <div class="input-block">
-                  <label for="signup-password-confirm">Confirm password</label>
-                  <input id="signup-password-confirm" type="password" required>
-                </div> -->
+
                 <div class="input-block">
                   <label for="signup-password">Password</label>
                   <input id="signup-password" type="password" name="pass" required>
                 </div>
                 
+                <div class="input-block">  
+                  <label for="signup-email">E-mail</label>
+                  <input id="signup-email" type="email" name="email"required>
+                </div>
+            
+                <!-- <div class="input-block">
+                  <label for="signup-password-confirm">Confirm password</label>
+                  <input id="signup-password-confirm" type="password" required>
+                </div> -->
+    
                 <div class="input-block">
-                  <label for="signup-password">level</label>
-                  <select name="" id="">
+                  <label for="signup-level">level</label>
+                  <select name="level" id="signup-level">
                   <option value="penjual">Penjual</option>>
                   <option value="pembeli">Pembeli</option>>
                   </select>
                 </div>
               </fieldset>
               
-              <button type="submit" class="btn-signup">Continue</button>
+              <button type="submit" class="btn-signup" name="regis">Continue</button>
             </form>
           </div>
         </div>
@@ -67,18 +77,7 @@
 	
 
     
- <?php
-    if(isset($_POST['login'])){
-        $username=$_POST['username'];
-        $password=$_POST['password'];
-
-        if($username=='uly' && $password=='123'){
-            echo "<script> alert(window.location.href='bootstrap_biodata.php');
-            </script>";
-        }
-    }
  
- ?> 
   <script src="tampilan/tampilan.js"></script> 
 </body>
 </html>
