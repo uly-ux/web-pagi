@@ -11,8 +11,20 @@ if(isset($_POST['input'])){
     $nilai_uts=$_POST['uts'];
     $nilai_uas=$_POST['uas'];
     $hasil=($nilai_harian*0.1)+($nilai_quiz*0.15)+($nilai_uts*0.35)+($nilai_uas*0.4);
+
+    if($hasil<=50){
+        $grade='E';
+    }else if($hasil<=65){
+        $grade='D';
+    }else if($hasil<=75){
+        $grade='C';
+    }else if($hasil<=85){
+        $grade='B';
+    }else if($hasil<=100 ||$hasil>100){
+        $grade='A';
+    }
    
-    $nilai_query= mysqli_query($koneksi,"INSERT into mahasiswa VALUES('$id_mahasiswa','$nama_mahasiswa','$nim_mahasiswa','$jur_mahasiswa','$nilai_harian','$nilai_quiz','$nilai_uts','$nilai_uas','$hasil')") or die (mysqli_error($nilai_query));
+    $nilai_query= mysqli_query($koneksi,"INSERT into mahasiswa VALUES('$id_mahasiswa','$nama_mahasiswa','$nim_mahasiswa','$jur_mahasiswa','$nilai_harian','$nilai_quiz','$nilai_uts','$nilai_uas','$hasil','$grade')") or die (mysqli_error($nilai_query));
 
     if($nilai_query){
         echo'<script>alert("nilai berhasil di Input");
