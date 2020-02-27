@@ -72,21 +72,21 @@
                     ";
                 }elseif($data['hasil']<=75){
                     echo"
-                        <div class='alert alert-warning' role='alert'>
+                        <div class='alert alert-info' role='alert'>
                             Nama :".$data['nama']." dengan Nim :".$data['nim']." dan Jurusan :".$data['jurusan']." memperoleh nilai sebesar hasil :".$data['hasil']."  maka dia mendapat grade C
                             <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>  
                         </div>
                     ";
                 }elseif($data['hasil']<=85){
                     echo"
-                        <div class='alert alert-warning' role='alert'>
+                        <div class='alert alert-secondary' role='alert'>
                             Nama :".$data['nama']." dengan Nim :".$data['nim']." dan Jurusan :".$data['jurusan']." memperoleh nilai sebesar hasil :".$data['hasil']."  maka dia mendapat grade B
                             <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>   
                         </div>
                     ";
                 }elseif($data['hasil']<=100){
                     echo"
-                        <div class='alert alert-warning' role='alert'>
+                        <div class='alert alert-primary' role='alert'>
                             Nama :".$data['nama']." dengan Nim :".$data['nim']." dan Jurusan :".$data['jurusan']." memperoleh nilai sebesar hasil :".$data['hasil']."  maka dia mendapat grade A
                             <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>  
                         </div>
