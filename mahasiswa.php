@@ -17,6 +17,10 @@
                 <input type="text" name="jur" class="form-control" id="jurusan_mhs" placeholder="">
             </div>
             <div class="form-group">
+                <label for="mata_kuliah">Mata Kuliah :</label>
+                <input type="text" name="mata_kuliah" class="form-control" id="mata_kuliah" placeholder="">
+            </div>
+            <div class="form-group">
                 <label for="n_harian">Nilai Harian :</label>
                 <input type="text" name="harian" class="form-control" id="n_harian" placeholder="">
             </div>
@@ -59,36 +63,41 @@
                 if($data['hasil']<=50){
                     echo"
                         <div class='alert alert-danger' role='alert'>
-                            Nama : ".$data['nama']." dengan Nim :".$data['nim']." dan Jurusan :".$data['jurusan']." memperoleh nilai sebesar ".$data['hasil']."  maka dia mendapat grade E 
-                            <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>   
+                            Nama : ".$data['nama']." dengan Nim :".$data['nim']." Jurusan :".$data['jurusan']." dan mata kuliah :".$data['mata_kuliah']." memperoleh nilai sebesar ".$data['hasil']."  maka dia mendapat grade E 
+                            <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>
+                            <a href='proses/proses_hapus_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-danger' onClick='hapus();'>Hapus</a>  
                         </div>
                     ";
                 }elseif($data['hasil']<=65){
                     echo"
                         <div class='alert alert-warning' role='alert'>
-                            Nama :".$data['nama']." dengan Nim :".$data['nim']." dan Jurusan :".$data['jurusan']." memperoleh nilai sebesar hasil :".$data['hasil']."  maka dia mendapat grade D 
-                            <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>  
+                            Nama :".$data['nama']." dengan Nim :".$data['nim']." Jurusan :".$data['jurusan']." dan mata kuliah :".$data['mata_kuliah']." memperoleh nilai sebesar hasil :".$data['hasil']."  maka dia mendapat grade D 
+                            <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>
+                            <a href='proses/proses_hapus_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-danger' onClick='hapus();'>Hapus</a>  
                         </div>
                     ";
                 }elseif($data['hasil']<=75){
                     echo"
                         <div class='alert alert-info' role='alert'>
-                            Nama :".$data['nama']." dengan Nim :".$data['nim']." dan Jurusan :".$data['jurusan']." memperoleh nilai sebesar hasil :".$data['hasil']."  maka dia mendapat grade C
-                            <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>  
+                            Nama :".$data['nama']." dengan Nim :".$data['nim']." Jurusan :".$data['jurusan']." dan mata kuliah :".$data['mata_kuliah']." memperoleh nilai sebesar hasil :".$data['hasil']."  maka dia mendapat grade C
+                            <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>
+                            <a href='proses/proses_hapus_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-danger' onClick='hapus();'>Hapus</a>  
                         </div>
                     ";
                 }elseif($data['hasil']<=85){
                     echo"
-                        <div class='alert alert-secondary' role='alert'>
-                            Nama :".$data['nama']." dengan Nim :".$data['nim']." dan Jurusan :".$data['jurusan']." memperoleh nilai sebesar hasil :".$data['hasil']."  maka dia mendapat grade B
-                            <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>   
+                        <div class='alert alert-success' role='alert'>
+                            Nama :".$data['nama']." dengan Nim :".$data['nim']." Jurusan :".$data['jurusan']." dan mata kuliah :".$data['mata_kuliah']." memperoleh nilai sebesar hasil :".$data['hasil']."  maka dia mendapat grade B
+                            <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>
+                            <a href='proses/proses_hapus_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-danger' onClick='hapus();'>Hapus</a>   
                         </div>
                     ";
                 }elseif($data['hasil']<=100){
                     echo"
                         <div class='alert alert-primary' role='alert'>
-                            Nama :".$data['nama']." dengan Nim :".$data['nim']." dan Jurusan :".$data['jurusan']." memperoleh nilai sebesar hasil :".$data['hasil']."  maka dia mendapat grade A
-                            <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>  
+                            Nama :".$data['nama']." dengan Nim :".$data['nim']." Jurusan :".$data['jurusan']." dan mata kuliah :".$data['mata_kuliah']." memperoleh nilai sebesar hasil :".$data['hasil']."  maka dia mendapat grade A
+                            <a href='edit_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-info'>Edit</a>
+                            <a href='proses/proses_hapus_mahasiswa.php?id_mahasiswa=".$data['id_mahasiswa']."' type='submit' class='btn btn-danger' onClick='hapus();'>Hapus</a>  
                         </div>
                     ";
                 }
@@ -100,3 +109,23 @@
 <?php
     include'footer.php';
 ?>
+
+<script>
+    function hapus(){
+
+        
+        swal({
+            title: "Apakah anda yakin ingin menghapus data?",
+            text: "Jika kamu menghapus data, maka data tidak dapat ditemukan lagi!",
+            type: "Peringatan",
+            showCancelButton: true,
+            confirmButtonClass: "btn-danger",
+            confirmButtonText: "Yes, delete it!",
+            closeOnConfirm: false
+            },
+            function(){
+            swal("Deleted!", "Your imaginary file has been deleted.", "success");
+            });
+        }
+
+</script>

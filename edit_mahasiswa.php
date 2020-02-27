@@ -34,6 +34,10 @@ $show=mysqli_query($koneksi, "SELECT * FROM mahasiswa WHERE id_mahasiswa='$id'")
                 <input type="text" name="jur" class="form-control" id="jurusan_mhs" placeholder="" value="<?php echo $data['jurusan']?>">
             </div>
             <div class="form-group">
+                <label for="mata_kuliah">Mata Kuliah :</label>
+                <input type="text" name="mata_kuliah" class="form-control" id="mata_kuliah" placeholder="" value="<?php echo $data['mata_kuliah']?>">
+            </div>
+            <div class="form-group">
                 <label for="n_harian">Nilai Harian :</label>
                 <input type="text" name="harian" class="form-control" id="n_harian" placeholder="" value="<?php echo $data['nilai_harian']?>">
             </div>

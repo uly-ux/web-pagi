@@ -6,6 +6,7 @@ if(isset($_GET['update'])){
     $nama_mahasiswa=$_GET['nama'];
     $nim_mahasiswa=$_GET['nim'];
     $jur_mahasiswa=$_GET['jur'];
+    $mata_kuliah=$_GET['mata_kuliah'];
     $nilai_harian=$_GET['harian'];
     $nilai_quiz=$_GET['quiz'];
     $nilai_uts=$_GET['uts'];
@@ -24,7 +25,7 @@ if(isset($_GET['update'])){
             $grade='A';
         }
 
-    $update=mysqli_query($koneksi, "UPDATE mahasiswa SET nama='$nama_mahasiswa',nim='$nim_mahasiswa',jurusan='$jur_mahasiswa',nilai_harian='$nilai_harian',nilai_quiz='$nilai_quiz',nilai_uts='$nilai_uts',nilai_uas='$nilai_uas',hasil='$hasil', grade='$grade' WHERE id_mahasiswa='$id'")or die(mysqli_error($update));
+    $update=mysqli_query($koneksi, "UPDATE mahasiswa SET nama='$nama_mahasiswa',nim='$nim_mahasiswa',jurusan='$jur_mahasiswa',mata_kuliah='$mata_kuliah',nilai_harian='$nilai_harian',nilai_quiz='$nilai_quiz',nilai_uts='$nilai_uts',nilai_uas='$nilai_uas',hasil='$hasil', grade='$grade' WHERE id_mahasiswa='$id'")or die(mysqli_error($update));
     
     if($update){
         echo'
