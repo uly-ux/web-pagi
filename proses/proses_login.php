@@ -1,4 +1,5 @@
 <?php
+session_star();
 include'../koneksi/koneksi.php';
 
  
@@ -21,13 +22,26 @@ if(isset($_POST['login'])) {
             $_SESSION['level']=$data['level'];
             $_SESSION['status']='login';
 
-            echo "<script> alert(window.location.href='../bootstrap_biodata.php');
+            echo "<script> alert(window.location.href='../diskon.php');
             </script>";
-        }else{
-            echo "<br>Gagal login";
+        }else{ if($data['level']=="pembeli"){
+            $_SESSION['username']=$data['username'];
+            $_SESSION['level']=$data['level'];
+            $_SESSION['status']='login';
+
+            echo"<script>
+                    alert(window.location.href='../mahasiswa.php');
+                    </script>";
+                }
+            }else{
+                echo'<script>alert("username dan password salah!")
+                    window.location.href="../login.php";
+                </script>';
+            }
+            
         }
     }
-}
+
 
     // if(isset($_POST['login'])){
     //     $username=$_POST['username'];
@@ -38,8 +52,8 @@ if(isset($_POST['login'])) {
     //     
   
 ?>
-<?php
-    if(isset($_POST['login'])){
+
+    <!-- if(isset($_POST['login'])){
         $username=$_POST['username'];
         $password=$_POST['password'];
 
@@ -49,4 +63,4 @@ if(isset($_POST['login'])) {
         }
     }
  
- ?> .
+ ?> . -->
