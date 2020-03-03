@@ -62,9 +62,9 @@
     <div class="form-group row">
         <label for="inputEmail" class="col-sm-2 ">Hobby</label>
         <div class="col-sm-4">
-        <input type="checkbox" name="hobby1"  id="inputEmail" value="Makan"> Travelling
-        <input type="checkbox" name="hobby2" id="inputEmail" value="Jalan-Jalan"> Surfing
-        <input type="checkbox" name="hobby3" id="inputEmail" value="Membaca"> Reading
+        <input type="checkbox" name="hobby1"  id="inputEmail" value="Travelling"> Travelling
+        <input type="checkbox" name="hobby2" id="inputEmail" value="Surfing"> Surfing
+        <input type="checkbox" name="hobby3" id="inputEmail" value="Reading"> Reading
         <input type="checkbox" name="hobby4" id="inputEmail" value="Ngoding"> Ngoding
         </div>
     </div>
