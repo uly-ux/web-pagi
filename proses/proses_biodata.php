@@ -52,7 +52,7 @@
                 $fungsi_upload=move_uploaded_file($nama_sementara, $lokasi_upload.$md5file);
                 
     
-                $query=mysqli_query($koneksi,"INSERT INTO biodata VALUES('$id','$nama_saya','$email_saya','$jenis_kelamin','$alamat','$no_hp','$hobby','$tanggal_lahir','$tempat_lahir','','$md5file')")or die(mysqli_error($query));
+                $query=mysqli_query($koneksi,"INSERT INTO biodata VALUES('$id','$nama_saya','$email_saya','$jenis_kelamin','$alamat','$no_hp','$hobby','$tanggal_lahir','$tempat_lahir',NULL,'$md5file')")or die(mysqli_error($query));
     
                 if($query){
     
@@ -64,3 +64,5 @@
             }
     ?>
     
+    <?php
+        function Hapus()
