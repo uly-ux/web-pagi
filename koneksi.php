@@ -1,8 +1,8 @@
 <?php
 $server="aisbi.webblkaceh.com";
 $username="u7022108_aisbi";
-$password="";
-$db="biodata";
+$password="aisbi12345@webpagi2020";
+$db="u7022108_aisbi";
 
 $koneksi=mysqli_connect($server,$username,$password,$db)or die(mysqli_error($koneksi));
 

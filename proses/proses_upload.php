@@ -18,7 +18,7 @@
 
             echo 'data file berhasil diupload<br>';
         }else{
-            echo 'data gagal diupload';
+            echo 'data gagal diupload'; 
         }
 
     }
