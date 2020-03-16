@@ -2,7 +2,7 @@
 $server="aisbi.webblkaceh.com";
 $username="u7022108_aisbi";
 $password="";
-$db="biodata";
+$db="";
 
 $koneksi=mysqli_connect($server,$username,$password,$db)or die(mysqli_error($koneksi));
 

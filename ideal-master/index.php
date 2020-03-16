@@ -103,8 +103,8 @@
           <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 text-center">
-                  <h1>Enhance Human Experience</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <h1>Hunian elit</h1>
+                  <p>Ruangan yang Nyaman dan Luas membuat kesan berkumpul lebih menyenangkan.</p>
                   <p class="mb-0"><a href="#" class="btn btn-primary px-4 py-2 rounded-0">Get A Quote</a></p>
                 </div>
               </div>
@@ -117,7 +117,7 @@
             <div class="row align-items-center justify-content-center">
               <div class="col-lg-6 text-center">
                 <h1>The Best Interior Design</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p>Design Interior dalam rumah merupakan Impian pemilik rumah yang harus diwujudkan oleh Professional handal kami.</p>
                 <p class="mb-0"><a href="#" class="btn btn-primary px-4 py-2 rounded-0">Get A Quote</a></p>
               </div>
             </div>
@@ -132,9 +132,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5">
-            <h2 class="heading-39291">We Create Building, and Interior Design That Enhance The Human Experience</h2>
-            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, consequuntur, harum? Culpa, iure vel fugiat veritatis obcaecati architecto.</p>
-            <p><a href="#" class="more-39291">More About Us</a></p>
+            <h2 class="heading-39291">Penataan tata letak furniture didalam rumah membuat kesan rumah lebih homey</h2>
+            <p class="mb-5">Menerapkan arsitek yang terkonsep dan Professional untuk mewujudkan rumah Impian Anda. </p>
+            <p><a href="#" class="more-39291">Tentang Kami</a></p>
           </div>
 
           <div class="col-md-4 ml-auto">
@@ -153,7 +153,7 @@
         <div class="row  mb-5">
           <div class="col-md-7">
             <h2 class="heading-39291">Our Featured <br> Services</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quos veniam magni totam, architecto earum dolor id obcaecati!</p>
+            <p>Wujudkan segera impian anda memiliki rumah Impian yang unik dan menarik.</p>
             <p class="my-5"><a href="#" class="more-39291">Learn More</a></p>
           </div>
         </div>
@@ -165,7 +165,7 @@
               <img src="images/img_1.jpg" alt="Image" class="img-fluid">
               <div class="text">
                 <span class="caption">Architecture</span>
-                <h3><a href="#">SED UT PERSPICIATIS UNDE THIS</a></h3>
+                <h3><a href="#">Portofolio arsitek anda tidak diragukan lagi, hasil karya yang membuat anda terkagum dengan ide, inovasi dan kreativitas mereka.</a></h3>
                 <p class="my-5"><a href="#" class="more-39291">Learn More</a></p>
               </div>
             </div>
@@ -191,7 +191,7 @@
               <img src="images/img_3.jpg" alt="Image" class="img-fluid">
               <div class="text">
                 <span class="caption">Interior Design</span>
-                <h3><a href="#">Obcaecati Architecto</a></h3>
+                <h3><a href="#">Design dan Artistik</a></h3>
                 <p class="my-5"><a href="#" class="more-39291">Learn More</a></p>
               </div>
             </div>
@@ -204,7 +204,7 @@
               <img src="images/img_4.jpg" alt="Image" class="img-fluid">
               <div class="text">
                 <span class="caption">Product Design</span>
-                <h3><a href="#">QUISQUE NON AUGUE</a></h3>
+                <h3><a href="#">Unik, Elegan dan </a></h3>
                 <p class="my-5"><a href="#" class="more-39291">Learn More</a></p>
               </div>
             </div>
@@ -219,10 +219,10 @@
       <div class="container">
         <div class="row mb-5 align-items-center">
           <div class="col-md-7">
-            <h2 class="heading-39291">Latest <br>Projects</h2>
+            <h2 class="heading-39291">Selanjutnya <br>Project</h2>
           </div>
           <div class="col-md-5 text-right">
-            <p><a href="#" class="more-39291">View All Projects</a></p>
+            <p><a href="#" class="more-39291">Lihat lebih lanjut</a></p>
           </div>
         </div>
       </div>
@@ -237,9 +237,9 @@
             <div class="col-md-7">
               <div class="text">
                 <span class="caption mb-3 d-block">Interior Design</span>
-                <h3 class="mb-3"><a href="#">Obcaecati Architecto</a></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non libero blanditiis dignissimos natus, necessitatibus consequatur vel alias delectus!</p>
-                <p class="my-5"><a href="#" class="more-39291">View This Project</a></p>
+                <h3 class="mb-3"><a href="#">Design dan Artistic</a></h3>
+                <p>Bersama Arsitektur kelas dunia dan Profesional di bidangnya rumah Impian anda dan Keluarga akan terwujud nyata.</p>
+                <p class="my-5"><a href="#" class="more-39291">Lihat Karya kita</a></p>
               </div>
             </div>
           </div>
