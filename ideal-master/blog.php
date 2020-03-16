@@ -55,7 +55,7 @@
             </div>
             <div class="col-lg-4 text-center">
               <div class="site-logo">
-                <a href="index.html">Ideal</a>
+                <a href="index.html">Architecture Great.com</a>
               </div>
 
 
@@ -85,7 +85,7 @@
               <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 text-center">
                   <h1>Our Blog</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <p>Percayakan Design Rumah Idaman Anda kepada Profesional kami.</p>
                   
                 </div>
               </div>
@@ -105,7 +105,7 @@
               </a>
               <div class="post-entry-1-contents">
                 <span class="meta">July 17, 2019</span>
-                <a href="single.html"><h2>IUSTO QUOS VENIAM MAGNI TOTAM</h2></a>
+                <a href="single.html"><h2>Melihat lebih dekat impian besar anda..</h2></a>
                 <p class="my-3"><a href="#" class="more-39291">Continue Reading</a></p>
               </div>
             </div>
@@ -118,7 +118,7 @@
               </a>
               <div class="post-entry-1-contents">
                 <span class="meta">July 17, 2019</span>
-                <a href="single.html"><h2>IUSTO QUOS VENIAM MAGNI TOTAM</h2></a>
+                <a href="single.html"><h2>Ide Hebat berawal dari imajinasi anda..</h2></a>
                 <p class="my-3"><a href="#" class="more-39291">Continue Reading</a></p>
               </div>
             </div>
@@ -131,7 +131,7 @@
               </a>
               <div class="post-entry-1-contents">
                 <span class="meta">July 17, 2019</span>
-                <a href="single.html"><h2>IUSTO QUOS VENIAM MAGNI TOTAM</h2></a>
+                <a href="single.html"><h2>Bekerja dan melayani dengan sepenuh hati.</h2></a>
                 <p class="my-3"><a href="#" class="more-39291">Continue Reading</a></p>
               </div>
             </div>
@@ -144,7 +144,7 @@
               </a>
               <div class="post-entry-1-contents">
                 <span class="meta">July 17, 2019</span>
-                <a href="single.html"><h2>IUSTO QUOS VENIAM MAGNI TOTAM</h2></a>
+                <a href="single.html"><h2>Gunakanlah waktumu sebaik-baiknya..</h2></a>
                 <p class="my-3"><a href="#" class="more-39291">Continue Reading</a></p>
               </div>
             </div>
@@ -158,7 +158,7 @@
               </a>
               <div class="post-entry-1-contents">
                 <span class="meta">July 17, 2019</span>
-                <a href="single.html"><h2>IUSTO QUOS VENIAM MAGNI TOTAM</h2></a>
+                <a href="single.html"><h2>Take a closer look at your big dreams..</h2></a>
                 <p class="my-3"><a href="#" class="more-39291">Continue Reading</a></p>
               </div>
             </div>
@@ -171,7 +171,7 @@
               </a>
               <div class="post-entry-1-contents">
                 <span class="meta">July 17, 2019</span>
-                <a href="single.html"><h2>IUSTO QUOS VENIAM MAGNI TOTAM</h2></a>
+                <a href="single.html"><h2>Great ideas start with your imagination</h2></a>
                 <p class="my-3"><a href="#" class="more-39291">Continue Reading</a></p>
               </div>
             </div>
@@ -184,7 +184,7 @@
               </a>
               <div class="post-entry-1-contents">
                 <span class="meta">July 17, 2019</span>
-                <a href="single.html"><h2>IUSTO QUOS VENIAM MAGNI TOTAM</h2></a>
+                <a href="single.html"><h2>Work and serve with all my heart</h2></a>
                 <p class="my-3"><a href="#" class="more-39291">Continue Reading</a></p>
               </div>
             </div>
@@ -197,7 +197,7 @@
               </a>
               <div class="post-entry-1-contents">
                 <span class="meta">July 17, 2019</span>
-                <a href="single.html"><h2>IUSTO QUOS VENIAM MAGNI TOTAM</h2></a>
+                <a href="single.html"><h2>Use your time as well as possible.</h2></a>
                 <p class="my-3"><a href="#" class="more-39291">Continue Reading</a></p>
               </div>
             </div>
@@ -227,7 +227,7 @@
             <div class="row">
               <div class="col-md-7">
                 <h2 class="footer-heading mb-4">About Us</h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                <p>Memberikan lebih dari apa yang anda butuhkan dan Melayani dengan setulus hati, Kepuasan dan kebahagiaan Anda adalah Harapan Kami. </p>
 
               </div>
               <div class="col-md-4 ml-auto">
@@ -270,7 +270,7 @@
             <div class="border-top pt-5">
               <p>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >ArchitectureGreat.com</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
             </div>

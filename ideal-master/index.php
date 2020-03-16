@@ -1,8 +1,12 @@
+<?php 
+    include'header.php';
+?>
+
 <!doctype html>
 <html lang="en">
 
   <head>
-    <title>Ideal &mdash; Website Template by Colorlib</title>
+    <title>Architecture Great.com</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -55,7 +59,7 @@
             </div>
             <div class="col-lg-4 text-center">
               <div class="site-logo">
-                <a href="index.html">Ideal</a>
+                <a href="index.html">Architecture Great.com</a>
               </div>
 
 
@@ -86,8 +90,8 @@
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 text-center">
-                  <h1>Welcome to <span class="text-primary">Ideal.</span>  </h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                  <h1>Welcome to <span class="text-primary">Architecture Great.com</span>  </h1>
+                  <p>Percayakan Design Rumah Idaman Anda kepada Profesional kami.</p>
                   <p class="mb-0"><a href="#" class="btn btn-primary px-4 py-2 rounded-0">Get A Quote</a></p>
                 </div>
               </div>
